@@ -34,7 +34,6 @@ The evaluation function is the main Q-function which evaluates the state of the 
 
 The major function of this is to provide a reward or punishment for each action that is taken by the agent. This is represented as R and contains the new states’ and the generated reward r for that action. This reward can be -1, 0 or 1, based on the consequence of the action, and accordingly the Q-values in the table are updated.
 
-
 3. Update function
 
 This function utilizes the value obtained from the Reinforcement functions and updates the Q-table. The update function is repeatedly used till an optimum set of values is obtained for that system.
@@ -45,7 +44,7 @@ The Graphical user interface is designed using Tkinter python library. In this p
 
 5. The Brain
 
-The Brain is the driver which runs the entire system. It checks against the conditions, and at each point determines whether:<br />
+The Brain is the driver which runs the entire system. It checks against the conditions, and at each point determines whether:
 
 a.	There is a next state possible for the concerned action<br />
 
@@ -55,9 +54,11 @@ Thus the brain initializes the various parameters at the beginning, and overalls
 
 ## Prerequisites
 I. Python<br />
+
     1. NumPy<br />
     2. Pandas<br />
     3. Tkinter<br />
+    
 II. IDE (we used Pycharm)<br />
 
 
@@ -73,7 +74,7 @@ Install Pandas:
 ```
 
 ## Output Screens
-![Capture](/Images/Capture.png)
+![Capture](/Images/Capture.PNG)
     
 ## Conclusion
 After the completion of the project, we conclude that Q-learning is a simple and efficient technique to achieve autonomous robot navigation. Using Q-learning algorithm, we found out that efficiency in the results based on the prescribed use-case in this project is 50% more as compared to State–action–reward–state–action (SARSA) approach. However, we also find out that it is not optimized due to storage of many Q-values inside a 2-D array. Thus, it is not space efficient and other techniques of reinforcement learning can be applied in order to achieve the desired efficiency and optimal performance.
