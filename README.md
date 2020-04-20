@@ -53,13 +53,13 @@ b.	The agent has reached the destination<br />
 Thus the brain initializes the various parameters at the beginning, and overalls drives the agent and directs its path, till it reaches the goal.
 
 ## Prerequisites
-I. Python<br />
+I. Python 3
 
     1. NumPy
     2. Pandas
     3. Tkinter
     
-II. IDE (we used Pycharm)<br />
+II. IDE (we used Pycharm)
 
 
 ## Install Dependencies
