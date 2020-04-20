@@ -55,9 +55,9 @@ Thus the brain initializes the various parameters at the beginning, and overalls
 ## Prerequisites
 I. Python<br />
 
-    1. NumPy<br />
-    2. Pandas<br />
-    3. Tkinter<br />
+    1. NumPy
+    2. Pandas
+    3. Tkinter
     
 II. IDE (we used Pycharm)<br />
 
