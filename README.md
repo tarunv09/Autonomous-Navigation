@@ -52,6 +52,14 @@ b.	The agent has reached the destination<br />
 
 Thus the brain initializes the various parameters at the beginning, and overalls drives the agent and directs its path, till it reaches the goal.
 
+## Class Diagram
+
+![classDiagram](/Images/classDiagram.jpg)
+
+## Activity Diagram
+
+![activityDiagram](/Images/activityDiagram.jpg)
+
 ## Prerequisites
 I. Python 3
 
